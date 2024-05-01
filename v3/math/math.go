@@ -11,3 +11,7 @@ func Sum[T int | float64](nums ...T) T {
 func Mul[T int | float64](a T, b T) T {
 	return a * b
 }
+
+func Div[T int | float64](a T, b T) T {
+	return a / b
+}
